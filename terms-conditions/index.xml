@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terms of Service on qatent for your patents</title>
-    <link>https://qatent.github.io/terms-conditions/</link>
+    <link>https://www.qatent.com/terms-conditions/</link>
     <description>Recent content in Terms of Service on qatent for your patents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://qatent.github.io/terms-conditions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.qatent.com/terms-conditions/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
