@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Privecy &amp; Policy on qatent for your patents</title>
-    <link>http://qatent.github.io/privacy-policy/</link>
+    <link>https://qatent.github.io/privacy-policy/</link>
     <description>Recent content in Privecy &amp; Policy on qatent for your patents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://qatent.github.io/privacy-policy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qatent.github.io/privacy-policy/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
