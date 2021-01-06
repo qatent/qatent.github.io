@@ -51,10 +51,6 @@
   </url>
   
   <url>
-    <loc>https://qatent.com/faq/</loc>
-  </url>
-  
-  <url>
     <loc>https://qatent.com/pricing/</loc>
   </url>
   
@@ -63,11 +59,19 @@
   </url>
   
   <url>
+    <loc>https://qatent.com/products/</loc>
+  </url>
+  
+  <url>
     <loc>https://qatent.com/tags/</loc>
   </url>
   
   <url>
     <loc>https://qatent.com/terms-conditions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://qatent.com/jobs/</loc>
   </url>
   
 </urlset>
