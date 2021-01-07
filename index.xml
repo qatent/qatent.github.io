@@ -6,10 +6,30 @@
     <description>Recent content on qatent for your patents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2020 10:07:21 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 10:07:21 +0600</lastBuildDate>
     
 	<atom:link href="https://qatent.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Frontend engineer - 6 months</title>
+      <link>https://qatent.com/jobs/jobs-1/</link>
+      <pubDate>Wed, 06 Jan 2021 10:07:21 +0600</pubDate>
+      
+      <guid>https://qatent.com/jobs/jobs-1/</guid>
+      <description>Ingénieur frontend (6 mois) Contexte et atouts du poste
+Le poste d’ingénieur(e) d’une durée de 6 mois est proposé à l’Inria Paris, pour le développement des interfaces d’outils en Traitement Automatique des Langues (TAL) appliqués aux brevets d’invention.</description>
+    </item>
+    
+    <item>
+      <title>NLP backend engineer - 12 months</title>
+      <link>https://qatent.com/jobs/jobs-2/</link>
+      <pubDate>Wed, 06 Jan 2021 10:07:21 +0600</pubDate>
+      
+      <guid>https://qatent.com/jobs/jobs-2/</guid>
+      <description>Backend #Contexte et atouts du poste
+Le poste d’ingénieur(e) d’une durée de 12 mois est proposé à l’Inria Paris, pour le développement des interfaces d’outils en Traitement Automatique des Langues (TAL) appliqués aux brevets d’invention.</description>
+    </item>
     
     <item>
       <title>Adversus is a web-based dialer and practical CRM solution</title>
@@ -48,6 +68,25 @@
     </item>
     
     <item>
+      <title>construction of a legal data database for patents (6 mois)</title>
+      <link>https://qatent.com/jobs/jobs-5/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://qatent.com/jobs/jobs-5/</guid>
+      <description>Stage Stage 3: construction of a legal data database for patents (6 mois) Stage en legaltech: Construction d’une base de données légale pour brevets</description>
+    </item>
+    
+    <item>
+      <title>Deep learning for paraphrasing</title>
+      <link>https://qatent.com/jobs/jobs-4/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://qatent.com/jobs/jobs-4/</guid>
+      <description>Heading example Stage 2: paraphrases spécifiques aux brevets (6 mois)
+Entraînement d’un système de génération de paraphrases spécifiques au corpus des brevets.</description>
+    </item>
+    
+    <item>
       <title>Pump-up the team morale and celebrate the excellence</title>
       <link>https://qatent.com/blog/post-2/</link>
       <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
@@ -63,6 +102,16 @@
       
       <guid>https://qatent.com/blog/post-3/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+    </item>
+    
+    <item>
+      <title>screens with built in Present and Dismiss animations.</title>
+      <link>https://qatent.com/jobs/jobs-3/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>https://qatent.com/jobs/jobs-3/</guid>
+      <description>Paragraph Stage 1: construction d’un vocabulaire de brevets by means of deep learning
+Création d’un vocabulaire technique multimots par croisement du vocabulaire extrait de Wikipédia avec un corpus de brevets.</description>
     </item>
     
   </channel>
