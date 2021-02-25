@@ -5,10 +5,6 @@
     <link>https://qatent.com/pricing/</link>
     <description>Recent content in Pricing on qatent for your patents</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://qatent.com/pricing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://qatent.com/pricing/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

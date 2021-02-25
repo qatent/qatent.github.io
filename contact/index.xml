@@ -5,10 +5,6 @@
     <link>https://qatent.com/contact/</link>
     <description>Recent content in Contact on qatent for your patents</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://qatent.com/contact/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://qatent.com/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
