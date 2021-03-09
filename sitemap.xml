@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://qatent.com/roadmap/claim_processor/</loc>
+    <lastmod>2021-03-09T11:04:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qatent.com/</loc>
+    <lastmod>2021-03-09T11:04:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qatent.com/roadmap/</loc>
+    <lastmod>2021-03-09T11:04:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qatent.com/jobs/jobs-1/</loc>
     <lastmod>2021-01-06T10:07:21+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://qatent.com/jobs/jobs-2/</loc>
-    <lastmod>2021-01-06T10:07:21+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qatent.com/</loc>
     <lastmod>2021-01-06T10:07:21+06:00</lastmod>
   </url>
   
@@ -102,10 +112,6 @@
   
   <url>
     <loc>https://qatent.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://qatent.com/roadmap/</loc>
   </url>
   
   <url>

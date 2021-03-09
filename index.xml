@@ -6,7 +6,16 @@
     <description>Recent content on qatent for your patents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jan 2021 10:07:21 +0600</lastBuildDate><atom:link href="https://qatent.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 11:04:58 +0100</lastBuildDate><atom:link href="https://qatent.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claim Processing</title>
+      <link>https://qatent.com/roadmap/claim_processor/</link>
+      <pubDate>Tue, 09 Mar 2021 11:04:58 +0100</pubDate>
+      
+      <guid>https://qatent.com/roadmap/claim_processor/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Frontend engineer - 6 months @Inria Paris</title>
       <link>https://qatent.com/jobs/jobs-1/</link>
@@ -104,15 +113,6 @@
       
       <guid>https://qatent.com/blog/post-3/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
-    </item>
-    
-    <item>
-      <title>Technological Maturity</title>
-      <link>https://qatent.com/roadmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://qatent.com/roadmap/</guid>
-      <description>Earlier Q1 2021 Q2 2021 Q3 2021 Q4 2021 Q1 2022 Later Claim processing</description>
     </item>
     
   </channel>
