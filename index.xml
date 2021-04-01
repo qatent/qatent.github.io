@@ -13,7 +13,7 @@
       <pubDate>Tue, 09 Mar 2021 11:04:58 +0100</pubDate>
       
       <guid>https://qatent.com/roadmap/claim_processor/</guid>
-      <description></description>
+      <description>Ongoing Goals Contextual automatic suggestions +   Completed Goals Completed Goal 1 +  Completed Goal 2 +  Completed Goal 3 +  Completed Goal 4 +     </description>
     </item>
     
     <item>
@@ -113,6 +113,15 @@
       
       <guid>https://qatent.com/blog/post-3/</guid>
       <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://qatent.com/roadmap/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qatent.com/roadmap/goals/</guid>
+      <description></description>
     </item>
     
   </channel>

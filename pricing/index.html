@@ -42,6 +42,7 @@
 		#logo {  width: 250px; height: 150px; }
     .navbar{margin-top: -2.5rem;}
 	</style>
+
 </head><body><!-- navigation -->
 <header class="navigation">
 
@@ -219,16 +220,14 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
 
-<section class="section pb-0">
-  <div class="container text-center">
-    <h1 class="display-3">Pricing</h1>
-    
-    <p>While our tools are under heavy code developments, we offer free and paid demo access to our prototypes</p>
-    
-  </div>
-</section>
 
 
+ 
+
+<div class="title-header">
+  <h1>PRICING</h1>
+  <div class="title-line"></div>
+</div>
 <section class="section">
   <div class="container pricing-container">
     <div class="row justify-content-center align-items-center">
@@ -322,6 +321,15 @@
     </div>
   </div>
 </section>
+<script>
+  function teamAnim(e){
+      const tl = gsap.timeline();
+       
+      tl.fromTo('.title-line', {scale: 0}, {scale:1, duration: 1});
+   }
+  
+   window.addEventListener('load', teamAnim);
+  </script>
 
 
 
