@@ -235,21 +235,54 @@
         <section class="details-form">
           
           
-          <div role="form" class="contact-form">
-            <form name="contact" id="contact" action="#" class="moodlebox-form" method="post">
-              
-              <div class="control-group">
-                <label>Please first enter your Email</label><br />
-                <input type="email" name="_email" id="_email" required class="form-control text">
-                
-              </div>
-              <div class="control-group">
-                  <button class="btn btn-sm btn-primary" id="nextBtn">Next</button>
-              </div>
-              
-            </form>
-          </div>
+          
         
+
+          <p>Register to try the demo version</p>
+
+<div>
+  <form action="https://intranet.qatent.com:8000/requestdemo/requestdemo/" 
+  method="POST"
+  accept-charset="UTF-8">
+  <div class="input-line">
+    <div class="input-section">
+      <h5><label for="fname">FIRST NAME *</label></h5>
+      <input class="name" type="text" id="fname" name="first_name" placeholder="Your name.." required>
+    </div>
+   <div class="input-section">
+    <h5><label for="lname">LAST NAME *</label></h5>
+    <input type="text" class="name" id="lname" name="last_name" placeholder="Your last name.." required>
+   </div>
+   
+  </div>
+
+  <div class="input-line">
+    <div class="input-section">
+    <h5><label for="lname">JOB TITLE *</label></h5>
+    <input type="text" class="jobtitle" id="lname" name="job_title" placeholder="What is your Job Title?" required>
+  </div>
+  <div class="input-section">
+    <h5><label for="lname">COMPANY *</label></h5> 
+    <input type="text" class="company" id="company" name="company" placeholder="Your company.." required>
+    </div>
+
+  </div>
+  <div class="input-line">
+    <div class="input-section">
+  <h5><label for="lname">EMAIL *</label></h5>
+  <input class=" email" type="email" id="email" name="email" placeholder="Your email" required>
+</div>
+</div>
+<div class="input-line">
+  <div class="input-section">
+  <h5><label for="lname">COMMENTS(optional) *</label></h5>
+    <textarea cols="50" id="comments" name="comments" placeholder="message.." required>
+      </textarea>
+    </div>
+    </div>
+    <button id="nextBtn" type="submit" class="btn btn-primary">Request Demo</button>
+  </form>
+</div>
         </section>
       </div> 
     
@@ -258,10 +291,41 @@
 
   <script>
     
-      const element = document.querySelector('#nextBtn');
-      element.addEventListener('click', ()=>{
-         console.log("button clicked");
-     })
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
 
     </script>
 
