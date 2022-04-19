@@ -231,16 +231,11 @@
   <div id='contact'>
     <div id='contact'>
       <div class="contact-section">
-      
-      <div class="contact-form">
-        <h1>Send us a message</h1>
-        <form action="">
-        <div class="contact-box"><h5 >Full Name</h5><input class="name" type="text" name="first_name" id="fname" required></div>
-        <div class="contact-box"><h5>Email</h5><input class=" email" type="email" id="email" name="email" placeholder="Your email" required></div>
-        <div class="contact-box"><h5>Message</h5><textarea  id="comments" name="comments" placeholder="message.."  cols="44" rows="5"></textarea></div>
-        </form>
-        <button class="submit-btn" id="nextBtn" type="submit">Send Message</button>
+      <div class="contact-img">
+      <h1>Get in touch</h1>
+      <img src="/images/contactPicture.svg" alt="Contact-Picture" class="contactimg" >
       </div>
+      
       <div class="contact-info">
         
         <div id="book-meeting">
@@ -308,40 +303,56 @@ window.addEventListener('load', teamAnim);
 window.addEventListener("load", contactAnimation);
 window.addEventListener("resize", contactAnimation);
 
-const element = document.querySelector('#nextBtn');
-      element.addEventListener('click', ()=>{
-     const full_name = document.querySelector('#fname').value;
-     const email = document.querySelector('#email').value;
-     const message = document.querySelector('#comments').value;
-     console.log('btn clicked');
-     });
-    const url = 'https://dev.qatent.com:8000/requestdemo/requestdemo/';
-    const  formEl = document.querySelector('form');
-    console.log(formEl);
-    let jsonObject;
-    formEl.addEventListener('submit', async (e)=>{
-        e.preventDefault();
-        const formData = new FormData(formEl);
-        const formDataSerialized = Object.fromEntries(formData);
-        console.log(formDataSerialized);
-       jsonObject  = {
-          ...formDataSerialized,
-        };
-    });
-    
-    
-       fetch(url,{
-        method: 'POST',
-        body: JSON.stringify(jsonObject),
-        headers: {
-          'Content-Type' : 'application/json'
-        },
-      }).then(res => console.log(res)).catch(err => console.error(err));
-      
-      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
-     console.log(JSON.stringify.jsonObject);
+      
+
+    
+
+   
+   
+    
+    
+      
 </script>
 
 
