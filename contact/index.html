@@ -147,6 +147,12 @@
           
           
           <li class="nav-item">
+            <a class="nav-link" href="https://qatent.com/jobs">Internship</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
             <a class="nav-link" href="https://qatent.com/contact">Contact</a>
           </li>
           
@@ -161,7 +167,7 @@
 
         
         
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScsPtTFIdC7zgj4x24y2woYpdIj_CSRIDArNVn3u7wBHZZwTg/viewform" class="btn btn-sm btn-primary ml-3">Test it for free</a>
+        <a href="https://my.qatent.com/login" class="btn btn-sm btn-primary ml-3">Test it for free</a>
         
         
       </div>
@@ -231,11 +237,29 @@
   <div id='contact'>
     <div id='contact'>
       <div class="contact-section">
-      <div class="contact-img">
-      <h1>Get in touch</h1>
-      <img src="/images/contactPicture.svg" alt="Contact-Picture" class="contactimg" >
-      </div>
       
+      <div class="contact-form">
+        <h1>Send us a message</h1>
+        <form action="" method="post">
+        <div class="contact-box"><h5 >Full Name</h5><input class="name" type="text" name="first_name" id="fname" required></div>
+        <div class="contact-box"><h5>Email</h5><input class=" email" type="email" id="email" name="email" placeholder="Your email" required></div>
+        <div class="contact-box"><h5>Message</h5><textarea  id="comments" name="comments" placeholder="message.."  cols="44" rows="5"></textarea></div>
+        <label class="container">
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+          <span class="subscribe-checkbox">Subscribe to our newsletter(No spams we promise!)</span>
+        </label>
+        </form>
+        <div  id="alert-container" >
+          Message sent successfully
+        </div>
+        <div  id="alert-error" >
+         please enter your mail address & name
+        </div>
+        <button class="submit-btn" id="nextBtn" type="submit">Send Message</button>
+
+        
+      </div>
       <div class="contact-info">
         
         <div id="book-meeting">
@@ -248,7 +272,7 @@
           </div>
           <div class="email">
             <a href="mailto:qatent@inria.fr"><i class="ti-email"></i><span>   Email:</span>
-              qatent@inria.fr</a>
+              fv@qatent.com</a>
           </div>
           <div class="address">
                 <i class="ti-location-pin"></i><span>  Address:</span><br>
@@ -303,51 +327,43 @@ window.addEventListener('load', teamAnim);
 window.addEventListener("load", contactAnimation);
 window.addEventListener("resize", contactAnimation);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+const element = document.querySelector('#nextBtn');
+    element.addEventListener('click', ()=>{
+    const full_name = document.querySelector('#fname').value;
+    const email = document.querySelector('#email').value;
+    const message = document.querySelector('#comments').value;
+    const url = 'https://devapi.qatent.com/requestdemo/contactus/';
+    const  formEl = document.querySelector('form');
+    fetch(url,{
+        method: 'POST',
+        body: JSON.stringify({full_name , email, message}),
+        headers: {
+          'Content-Type' : 'application/json'
+        },
+      }).then((res) =>{
+        
+if(res.status === 202){
+  let alerts = document.getElementById("alert-container");
+  document.querySelector('#fname').value = '';
+    document.querySelector('#email').value = '';
+    document.querySelector('#comments').value = '';
+   alerts.style.display="block";
+   setTimeout(()=>{
+    alerts.style.display="none";
+   }, 5000);
+} else if(res.status !== 202){
+  
+        let alerterror = document.getElementById("alert-error");
+        alerterror.style.display="block";
+       
+   setTimeout(()=>{
+    alerterror.style.display="none";
+   }, 3000);
+}})
       
 
     
-
+     });
    
    
     

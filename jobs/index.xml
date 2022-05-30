@@ -1,55 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>We&#39;re hiring on qatent for your patents</title>
+    <title> Jobs on qatent for your patents</title>
     <link>https://qatent.com/jobs/</link>
-    <description>Recent content in We&#39;re hiring on qatent for your patents</description>
+    <description>Recent content in  Jobs on qatent for your patents</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jan 2021 10:07:21 +0600</lastBuildDate><atom:link href="https://qatent.com/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://qatent.com/jobs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Frontend engineer - 6 months @Inria Paris</title>
+      <title></title>
       <link>https://qatent.com/jobs/jobs-1/</link>
-      <pubDate>Wed, 06 Jan 2021 10:07:21 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://qatent.com/jobs/jobs-1/</guid>
-      <description>Ingénieur frontend (6 mois) @Centre Inria, Paris 12e, Inria Startup Studio &amp;amp; équipe Almanach Contexte et atouts du poste Le poste d’ingénieur(e) d’une durée de 6 mois est proposé à l’Inria Paris, pour le développement des interfaces d’outils en Traitement Automatique des Langues (TAL) appliqués aux brevets d’invention.</description>
+      <description>Stage UX (6 mois) dans le domaine des brevets d’invention et I.A.  Contexte et atouts du poste qatent est une startup en TAL qui travaille sur la génération de demandes de brevets à partir de revendications en utilisant l&#39;intelligence artificielle.</description>
     </item>
     
     <item>
-      <title>NLP backend engineer - 12 months</title>
+      <title></title>
       <link>https://qatent.com/jobs/jobs-2/</link>
-      <pubDate>Wed, 06 Jan 2021 10:07:21 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://qatent.com/jobs/jobs-2/</guid>
-      <description>Ingénieur Backend TAL (12 mois) @Centre Inria, Paris 12e, Inria Startup Studio &amp;amp; équipe Almanach Contexte et atouts du poste Le poste d’ingénieur(e) d’une durée de 12 mois est proposé à l’Inria Paris, pour le développement des interfaces d’outils en Traitement Automatique des Langues (TAL) appliqués aux brevets d’invention.</description>
-    </item>
-    
-    <item>
-      <title>Stage 1: construction d’un vocabulaire de brevets à l&#39;aide du deep learning sur très grands corpus</title>
-      <link>https://qatent.com/jobs/intern-1/</link>
-      <pubDate>Tue, 05 Jan 2021 10:07:21 +0600</pubDate>
-      
-      <guid>https://qatent.com/jobs/intern-1/</guid>
-      <description>Création d’un vocabulaire technique multimots par croisement du vocabulaire extrait de Wikipédia et d&amp;rsquo;autres ressources scientifiques avec un corpus de brevets.</description>
-    </item>
-    
-    <item>
-      <title>Stage 2 : Paraphrases technologiques par apprentissage profond</title>
-      <link>https://qatent.com/jobs/intern-2/</link>
-      <pubDate>Tue, 05 Jan 2021 10:07:21 +0600</pubDate>
-      
-      <guid>https://qatent.com/jobs/intern-2/</guid>
-      <description>Stage 2: paraphrases spécifiques aux brevets (environ 6 mois)  Entraînement d’un système de génération de paraphrases spécifiques au corpus des brevets par apprentissage croisé avec des corpus génériques de paraphrases.</description>
-    </item>
-    
-    <item>
-      <title>Stage 3 : Construction d&#39;une base de données légale pour brevets (6 mois)</title>
-      <link>https://qatent.com/jobs/intern-3/</link>
-      <pubDate>Tue, 05 Jan 2021 10:07:21 +0600</pubDate>
-      
-      <guid>https://qatent.com/jobs/intern-3/</guid>
-      <description>Internship 3: construction of a legal data database for patents (~6 months) Stage en legaltech: Construction d’une base de données légale pour brevets Le startup studio d’Inria propose un stage pour le projet qatent: Il s’agit de constituer un corpus de la jurisprudence des brevets et le préparer pour y identifier les termes spécifiques au langage des brevets.</description>
+      <description>Description textuelle automatique à partir d&#39;une image et inversement transformation de revendications de brevets en pré-images  Contexte et atouts du poste Alors que le Traitement Automatique des Langues progresse à pas de géants, une partie importante des informations techniques contenues dans les brevets d&#39;invention est encodée de manière graphique.</description>
     </item>
     
   </channel>
