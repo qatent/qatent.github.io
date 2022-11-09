@@ -1,389 +1,878 @@
 <!DOCTYPE html>
-<html lang="en-us"><head>
-  <meta charset="utf-8">
-  <title></title>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <meta name="description" content="This is meta description">
-  <meta name="author" content="qatent">
-  <meta name="generator" content="Hugo 0.80.0" />
+    <!-- mobile responsive meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <meta name="description" content="This is meta description" />
+    <meta name="author" content="qatent" />
+    <meta name="generator" content="Hugo 0.80.0" />
 
-  <!-- plugins -->
-  
-  <link rel="stylesheet" href="https://qatent.com/plugins/bootstrap/bootstrap.min.css">
-  
-  <link rel="stylesheet" href="https://qatent.com/plugins/themify-icons/themify-icons.css">
-  
-  <link rel="stylesheet" href="https://qatent.com/plugins/slick/slick.css">
-  
+    <!-- plugins -->
 
-  <!-- Main Stylesheet -->
-  
-  <link href="https://qatent.com/scss/style.min.css" rel="stylesheet" media="screen"/>
+    <link
+      rel="stylesheet"
+      href="https://qatent.com/plugins/bootstrap/bootstrap.min.css"
+    />
 
-  <!--Favicon-->
-  <link rel="shortcut icon" href="https://qatent.com/images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="https://qatent.com/images/favicon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://qatent.com/plugins/themify-icons/themify-icons.css"
+    />
 
+    <link rel="stylesheet" href="https://qatent.com/plugins/slick/slick.css" />
 
-  
-  
-  <meta property="og:title" content="" />
-<meta property="og:description" content="This is meta description" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://qatent.com/jobs/jobs-2/" />
+    <!-- Main Stylesheet -->
 
+    <link
+      href="https://qatent.com/scss/style.min.css"
+      rel="stylesheet"
+      media="screen"
+    />
 
-  
-  
-  <style>
-		html, body { border: 0; margin: 0; width: 100vw; height: 100vh }
-		#logo {  width: 250px; height: 150px; }
-    .navbar{margin-top: -2.5rem;}
-	</style>
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="https://qatent.com/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="https://qatent.com/images/favicon.png"
+      type="image/x-icon"
+    />
 
-<script>
-  var _paq = window._paq = window._paq || [];
- 
-   
-  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["setCookieDomain", ".qatent.com"]);
-  _paq.push(["setDomains", [".qatent.com",".dev.qatent.com","*.my.qatent.com"]]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//dev.qatent.com:8080/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="This is meta description" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://qatent.com/jobs/jobs-2/" />
 
-</head><body><!-- navigation -->
-<header class="navigation">
+    <style>
+      html,
+      body {
+        border: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+      #logo {
+        width: 250px;
+        height: 150px;
+      }
+      .navbar {
+        margin-top: -2.5rem;
+      }
+    </style>
 
-  <div class="container">
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand" href="https://qatent.com">
-        
-        <div id="logo">
-         <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-43.94 24 365.44 224" width="100%" height="100%" version="1.1" preserveAspectRatio="xMidYMid meet" id="svgqatent">
-            <defs>
-                <symbol id="qsym">
-                   <path transform="scale(1.05)"
-                      style="fill-rule:nonzero;stroke-width:0.5px;shape-rendering:geometricPrecision"
-                      d="m 127.6,149.5 q -4.4,0 -7,2.8 -2.4,2.8 -2.4,8.2 0,5.3 2.4,8.1 2.6,2.8 7,2.8 4.7,0 7.1,-2.8 2.6,-2.8 2.6,-8.1 0,-5.4 -2.6,-8.2 -2.4,-2.8 -7.1,-2.8 z m 9.7,24.2 q -3.1,3.4 -6.7,4.9 -3.7,1.5 -8.3,1.5 -8.4,0 -13.8,-5.5 -5.3,-5.5 -5.3,-14.1 0,-8.7 5.3,-14.2 5.4,-5.5 13.8,-5.5 4.6,0 8.3,1.6 3.6,1.5 6.7,4.8 v -5.5 h 14.4 v 51.7 h -14.4 z" />
-                </symbol>
-              <style>
-                svg { background: none;   }
-                   #bq { opacity: 1; fill: #1c2224; }
-                   .letter { opacity: 1; }
-                </style>
-            </defs>
-            <g id="main" transform="translate(0,-87)">
-                <g id="card2" transform="translate(-141.8,46.3)">
-                   <use id="s7-3" class="qpl" xlink:href="#qsym" style="fill:#800080;--rot:5;--roty:-0.61;--tan:0.77"></use>
-                   <use id="s6-3" class="qpl" xlink:href="#qsym" style="fill:#740088;--rot:4;--roty:-0.5;--tan:0.58"></use>
-                   <use id="s5-3" class="qpl" xlink:href="#qsym" style="fill:#680090;--rot:3;--roty:-0.38;--tan:0.41"></use>
-                   <use id="s4-3" class="qpl" xlink:href="#qsym" style="fill:#5c0099;--rot:2;--roty:-0.26;--tan:0.27"></use>
-                   <use id="s3-3" class="qpl" xlink:href="#qsym" style="fill:#5000a1;--rot:1;--roty:-0.13;--tan:0.13"></use>
-                   <use id="s2-3" class="qpl" xlink:href="#qsym" style="fill:#4400aa;--rot:0;--roty:0;--tan:0"></use>
-                   <use id="s8-3" class="qpl" xlink:href="#qsym" style="fill:#8e1671;--rot:6;--roty:-0.71;--tan:1"></use>
-                   <use id="s9-3" class="qpl" xlink:href="#qsym" style="fill:#9c2d62;--rot:7;--roty:-0.79;--tan:1.3"></use>
-                   <use id="s10-3" class="qpl" xlink:href="#qsym" style="fill:#ab4354;--rot:8;--roty:-0.87;--tan:1.73"></use>
-                   <use id="s11-3" class="qpl" xlink:href="#qsym" style="fill:#b95a45;--rot:9;--roty:-0.92;--tan:2.41"></use>
-                   <use id="s12-3" class="qpl" xlink:href="#qsym" style="fill:#c87137;--rot:10;--roty:-0.97;--tan:3.73"></use>
-                   <use id="s13-3" class="qpl" xlink:href="#qsym" style="fill:#a67239;--rot:11;--roty:-0.99;--tan:4"></use>
-                   <use id="s14-3" class="qpl" xlink:href="#qsym" style="fill:#85733c;--rot:12;--roty:-1;--tan:16"></use>
-                   <use id="s15-3" class="qpl" xlink:href="#qsym" style="fill:#217844;--rot:13;--roty:-0.99;--tan:-7.6"></use>
-                   <use id="s16-3" class="qpl" xlink:href="#qsym" style="fill:#2f486c;--rot:14;--fo:0.71538469;--roty:-0.97;--tan:-3.73"></use>
-                   <use id="s17-3" class="qpl" xlink:href="#qsym" style="fill:#286058;--rot:15;--fo:0.78653846;--roty:-0.92;--tan:-2.41"></use>
-                   <use id="s18-3" class="qpl" xlink:href="#qsym" style="fill:#362f81;--rot:16;--fo:0.85769228;--roty:-0.87;--tan:-1.73"></use>
-                   <use id="s19-3" class="qpl" xlink:href="#qsym" style="fill:#3d1895;--rot:17;--fo:0.92884617;--roty:-0.79;--tan:-1.3"></use>
-                   
-                   <use id="s1" xlink:href="#qsym" style="transform: translate(-0.5px,0); fill: #4400aa; stroke: #4400aa; fill-opacity: 1"></use>
-                </g>
-              <g id="qatent" transform="translate(32,0)">
-                <path
+    <script>
+      var _paq = (window._paq = window._paq || []);
+
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", ".qatent.com"]);
+      _paq.push([
+        "setDomains",
+        [".qatent.com", ".dev.qatent.com", "*.my.qatent.com"],
+      ]);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "//dev.qatent.com:8080/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "2"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.async = true;
+        g.src = u + "matomo.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- navigation -->
+    <header class="navigation">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <a class="navbar-brand" href="https://qatent.com">
+            <div id="logo">
+              <svg
+                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="-43.94 24 365.44 224"
+                width="100%"
+                height="100%"
+                version="1.1"
+                preserveAspectRatio="xMidYMid meet"
+                id="svgqatent"
+              >
+                <defs>
+                  <symbol id="qsym">
+                    <path
+                      transform="scale(1.05)"
+                      style="
+                        fill-rule: nonzero;
+                        stroke-width: 0.5px;
+                        shape-rendering: geometricPrecision;
+                      "
+                      d="m 127.6,149.5 q -4.4,0 -7,2.8 -2.4,2.8 -2.4,8.2 0,5.3 2.4,8.1 2.6,2.8 7,2.8 4.7,0 7.1,-2.8 2.6,-2.8 2.6,-8.1 0,-5.4 -2.6,-8.2 -2.4,-2.8 -7.1,-2.8 z m 9.7,24.2 q -3.1,3.4 -6.7,4.9 -3.7,1.5 -8.3,1.5 -8.4,0 -13.8,-5.5 -5.3,-5.5 -5.3,-14.1 0,-8.7 5.3,-14.2 5.4,-5.5 13.8,-5.5 4.6,0 8.3,1.6 3.6,1.5 6.7,4.8 v -5.5 h 14.4 v 51.7 h -14.4 z"
+                    />
+                  </symbol>
+                  <style>
+                    svg {
+                      background: none;
+                    }
+                    #bq {
+                      opacity: 1;
+                      fill: #1c2224;
+                    }
+                    .letter {
+                      opacity: 1;
+                    }
+                  </style>
+                </defs>
+                <g id="main" transform="translate(0,-87)">
+                  <g id="card2" transform="translate(-141.8,46.3)">
+                    <use
+                      id="s7-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #800080;
+                        --rot: 5;
+                        --roty: -0.61;
+                        --tan: 0.77;
+                      "
+                    ></use>
+                    <use
+                      id="s6-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="fill: #740088; --rot: 4; --roty: -0.5; --tan: 0.58"
+                    ></use>
+                    <use
+                      id="s5-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #680090;
+                        --rot: 3;
+                        --roty: -0.38;
+                        --tan: 0.41;
+                      "
+                    ></use>
+                    <use
+                      id="s4-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #5c0099;
+                        --rot: 2;
+                        --roty: -0.26;
+                        --tan: 0.27;
+                      "
+                    ></use>
+                    <use
+                      id="s3-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #5000a1;
+                        --rot: 1;
+                        --roty: -0.13;
+                        --tan: 0.13;
+                      "
+                    ></use>
+                    <use
+                      id="s2-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="fill: #4400aa; --rot: 0; --roty: 0; --tan: 0"
+                    ></use>
+                    <use
+                      id="s8-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="fill: #8e1671; --rot: 6; --roty: -0.71; --tan: 1"
+                    ></use>
+                    <use
+                      id="s9-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="fill: #9c2d62; --rot: 7; --roty: -0.79; --tan: 1.3"
+                    ></use>
+                    <use
+                      id="s10-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #ab4354;
+                        --rot: 8;
+                        --roty: -0.87;
+                        --tan: 1.73;
+                      "
+                    ></use>
+                    <use
+                      id="s11-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #b95a45;
+                        --rot: 9;
+                        --roty: -0.92;
+                        --tan: 2.41;
+                      "
+                    ></use>
+                    <use
+                      id="s12-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #c87137;
+                        --rot: 10;
+                        --roty: -0.97;
+                        --tan: 3.73;
+                      "
+                    ></use>
+                    <use
+                      id="s13-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="fill: #a67239; --rot: 11; --roty: -0.99; --tan: 4"
+                    ></use>
+                    <use
+                      id="s14-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="fill: #85733c; --rot: 12; --roty: -1; --tan: 16"
+                    ></use>
+                    <use
+                      id="s15-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #217844;
+                        --rot: 13;
+                        --roty: -0.99;
+                        --tan: -7.6;
+                      "
+                    ></use>
+                    <use
+                      id="s16-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #2f486c;
+                        --rot: 14;
+                        --fo: 0.71538469;
+                        --roty: -0.97;
+                        --tan: -3.73;
+                      "
+                    ></use>
+                    <use
+                      id="s17-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #286058;
+                        --rot: 15;
+                        --fo: 0.78653846;
+                        --roty: -0.92;
+                        --tan: -2.41;
+                      "
+                    ></use>
+                    <use
+                      id="s18-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #362f81;
+                        --rot: 16;
+                        --fo: 0.85769228;
+                        --roty: -0.87;
+                        --tan: -1.73;
+                      "
+                    ></use>
+                    <use
+                      id="s19-3"
+                      class="qpl"
+                      xlink:href="#qsym"
+                      style="
+                        fill: #3d1895;
+                        --rot: 17;
+                        --fo: 0.92884617;
+                        --roty: -0.79;
+                        --tan: -1.3;
+                      "
+                    ></use>
+
+                    <use
+                      id="s1"
+                      xlink:href="#qsym"
+                      style="
+                        transform: translate(-0.5px, 0);
+                        fill: #4400aa;
+                        stroke: #4400aa;
+                        fill-opacity: 1;
+                      "
+                    ></use>
+                  </g>
+                  <g id="qatent" transform="translate(32,0)">
+                    <path
                       d="m 93.43,216.8 q -4.8,0 -7.23,1.3 -2.41,1.4 -2.41,4 0,2.4 1.94,3.8 1.95,1.4 5.42,1.4 4.33,0 7.26,-2.6 2.99,-2.6 2.99,-6.4 v -1.5 z M 116.8,212 v 22.7 h -15.4 v -5.9 q -3.13,3.6 -6.97,5.3 -3.85,1.6 -9.36,1.6 -7.47,0 -12.11,-3.6 -4.62,-3.6 -4.62,-9.4 0,-6.9 5.8,-10.2 5.79,-3.3 18.2,-3.3 h 9.06 v -0.9 q 0,-3.1 -2.94,-4.5 -2.84,-1.4 -8.88,-1.4 -4.94,0 -9.17,0.9 -4.23,0.8 -7.88,2.4 V 196 q 4.93,-1 9.88,-1.5 4.98,-0.5 9.93,-0.5 12.96,0 18.76,4.2 5.7,4.3 5.7,13.8 z"
-                      style="fill:#1c2224;fill-opacity:1;fill-rule:nonzero;stroke:#1c2224;stroke-width:0;stroke-dasharray:263.4364;stroke-dashoffset:256.3622"
-                      id="ba" class="letter" />
-                <path
+                      style="
+                        fill: #1c2224;
+                        fill-opacity: 1;
+                        fill-rule: nonzero;
+                        stroke: #1c2224;
+                        stroke-width: 0;
+                        stroke-dasharray: 263.4364;
+                        stroke-dashoffset: 256.3622;
+                      "
+                      id="ba"
+                      class="letter"
+                    />
+                    <path
                       d="m 135.9,183.7 v 11.2 h 15.7 v 9.1 h -15.7 v 16.9 q 0,2.7 1.2,3.8 1.4,0.9 5.3,0.9 h 7.9 v 9.1 h -13.1 q -9,0 -12.8,-3.1 -3.8,-3.2 -3.8,-10.7 V 204 h -7.7 v -9.1 h 7.7 v -11.2 z"
-                      style="fill:#1c2224;fill-opacity:1;fill-rule:nonzero;stroke:#1c2224;stroke-width:0;stroke-dasharray:202.9392;stroke-dashoffset:197.4895"
-                      id="bt1" class="letter" />
-                <path
+                      style="
+                        fill: #1c2224;
+                        fill-opacity: 1;
+                        fill-rule: nonzero;
+                        stroke: #1c2224;
+                        stroke-width: 0;
+                        stroke-dasharray: 202.9392;
+                        stroke-dashoffset: 197.4895;
+                      "
+                      id="bt1"
+                      class="letter"
+                    />
+                    <path
                       d="m 196.9,214.7 v 3.6 h -35.8 q 0.6,4.5 3.9,6.7 3.3,2.3 9.3,2.3 4.9,0 9.9,-1.2 5.1,-1.2 10.4,-3.6 v 9.8 q -5.4,1.7 -10.9,2.5 -5.4,0.9 -10.8,0.9 -13,0 -20.2,-5.4 -7.2,-5.5 -7.2,-15.5 0,-9.6 7,-15.2 7.2,-5.6 19.5,-5.6 11.3,0 18.1,5.6 6.8,5.6 6.8,15.1 z m -15.7,-4.2 q 0,-3.7 -2.6,-5.8 -2.5,-2.3 -6.7,-2.3 -4.4,0 -7.1,2.1 -2.9,2.1 -3.6,6 z"
-                      style="fill:#1c2224;fill-opacity:1;fill-rule:nonzero;stroke:#1c2224;stroke-width:0;stroke-dasharray:259.7533;stroke-dashoffset:252.778"
-                      id="be" class="letter" />
-                <path
+                      style="
+                        fill: #1c2224;
+                        fill-opacity: 1;
+                        fill-rule: nonzero;
+                        stroke: #1c2224;
+                        stroke-width: 0;
+                        stroke-dasharray: 259.7533;
+                        stroke-dashoffset: 252.778;
+                      "
+                      id="be"
+                      class="letter"
+                    />
+                    <path
                       d="m 244.8,210.5 v 24.2 h -15.5 v -4 -14.5 q 0,-5.2 -0.2,-7.1 -0.3,-2 -0.9,-2.9 -1,-1.2 -2.5,-1.9 -1.6,-0.7 -3.5,-0.7 -4.9,0 -7.6,3.1 -2.7,3 -2.7,8.5 v 19.5 h -15.3 v -39.8 h 15.3 v 5.9 q 3.5,-3.5 7.3,-5.2 4,-1.6 8.7,-1.6 8.2,0 12.5,4.2 4.4,4.2 4.4,12.3 z"
-                      style="fill:#1c2224;fill-opacity:1;fill-rule:nonzero;stroke:#1c2224;stroke-width:0;stroke-dasharray:244.2892;stroke-dashoffset:237.7291"
-                      id="bn" class="letter" />
-                <path
+                      style="
+                        fill: #1c2224;
+                        fill-opacity: 1;
+                        fill-rule: nonzero;
+                        stroke: #1c2224;
+                        stroke-width: 0;
+                        stroke-dasharray: 244.2892;
+                        stroke-dashoffset: 237.7291;
+                      "
+                      id="bn"
+                      class="letter"
+                    />
+                    <path
                       d="m 263.8,183.7 v 11.2 h 15.7 v 9.1 h -15.7 v 16.9 q 0,2.7 1.3,3.8 1.3,0.9 5.3,0.9 h 7.8 v 9.1 h -13.1 q -9,0 -12.8,-3.1 -3.8,-3.2 -3.8,-10.7 V 204 h -7.6 v -9.1 h 7.6 v -11.2 z"
-                      style="fill:#1c2224;fill-opacity:1;fill-rule:nonzero;stroke:#1c2224;stroke-width:0;stroke-dasharray:202.9392;stroke-dashoffset:197.4895"
-                      id="bt2" class="letter" />
-                <path
+                      style="
+                        fill: #1c2224;
+                        fill-opacity: 1;
+                        fill-rule: nonzero;
+                        stroke: #1c2224;
+                        stroke-width: 0;
+                        stroke-dasharray: 202.9392;
+                        stroke-dashoffset: 197.4895;
+                      "
+                      id="bt2"
+                      class="letter"
+                    />
+                    <path
                       d="m 43.63,203.2 q -4.83,0 -7.45,3 -2.57,2.9 -2.57,8.6 0,5.7 2.57,8.7 2.62,3 7.45,3 4.95,0 7.51,-3 2.61,-3 2.61,-8.7 0,-5.7 -2.61,-8.6 -2.56,-3 -7.51,-3 z M 53.75,229 q -3.17,3.5 -6.98,5.1 -3.8,1.6 -8.83,1.6 -8.83,0 -14.54,-5.8 -5.65,-5.8 -5.65,-15.1 0,-9.1 5.65,-14.9 5.71,-5.8 14.54,-5.8 5.03,0 8.83,1.6 3.81,1.6 6.98,5.2 v -6 h 15.4 v 54.9 h -15.4 z"
-                      style="fill-opacity:1;fill-rule:nonzero;stroke:#1c2224;stroke-width:0;stroke-dasharray:292.7429;stroke-dashoffset:284.8817"
-                      id="bq" />
-              </g>
-            </g>
-          </svg>
+                      style="
+                        fill-opacity: 1;
+                        fill-rule: nonzero;
+                        stroke: #1c2224;
+                        stroke-width: 0;
+                        stroke-dasharray: 292.7429;
+                        stroke-dashoffset: 284.8817;
+                      "
+                      id="bq"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navigation"
+          >
+            <i class="ti-menu"></i>
+          </button>
+
+          <div class="collapse navbar-collapse text-center" id="navigation">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="https://qatent.com/service"
+                  >Service</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://qatent.com/price">Pricing</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://qatent.com/team">Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://qatent.com/jobs">Jobs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://qatent.com/contact"
+                  >Contact</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://qatent.com"></a>
+              </li>
+            </ul>
+
+            <a
+              href="https://my.qatent.com/login"
+              class="btn btn-sm btn-primary ml-3"
+              >Get started</a
+            >
           </div>
-        
-        
-      </a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-        <i class="ti-menu"></i>
-      </button>
-
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://qatent.com/service">Service</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://qatent.com/price">Pricing</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://qatent.com/team">Team</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://qatent.com/jobs">Jobs</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://qatent.com/contact">Contact</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://qatent.com"></a>
-          </li>
-          
-          
-        </ul>
-
-        
-        
-        <a href="https://my.qatent.com/login" class="btn btn-sm btn-primary ml-3">Get started</a>
-        
-        
+        </nav>
       </div>
-    </nav>
-  </div>
-</header>
-<!-- /navigation -->
+    </header>
+    <!-- /navigation -->
 
-<script src='//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
-<script type="text/javascript">
-	CSSPlugin.defaultSkewType = "compensated";
-	var tl = new TimelineMax({repeat: -1, yoyo: true}),
-		slices =  [].slice.call(document.querySelectorAll(".qpl")),
-		startAngle = 45,
-		adjustAngle = -3.75;
-	startAngle += adjustAngle;
-	slices.sort(function(a,b) {
-		return parseInt(getComputedStyle(a).getPropertyValue("--rot")) - parseInt(getComputedStyle(b).getPropertyValue("--rot"));
-	});
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script type="text/javascript">
+      CSSPlugin.defaultSkewType = "compensated";
+      var tl = new TimelineMax({ repeat: -1, yoyo: true }),
+        slices = [].slice.call(document.querySelectorAll(".qpl")),
+        startAngle = 45,
+        adjustAngle = -3.75;
+      startAngle += adjustAngle;
+      slices.sort(function (a, b) {
+        return (
+          parseInt(getComputedStyle(a).getPropertyValue("--rot")) -
+          parseInt(getComputedStyle(b).getPropertyValue("--rot"))
+        );
+      });
 
-	tl.to("#s1", 0, { opacity: 1} );
-	tl.to(slices, 0, {
-		transformOrigin: "100% 100%",
-		fillOpacity: (i) => (getComputedStyle(slices[i]).getPropertyValue("--fo").length !== 0) ? (parseFloat(getComputedStyle(slices[i]).getPropertyValue("--fo"))) : 0.6442,
-		scaleX: (i) => (1 + parseFloat(getComputedStyle(slices[slices.length-1-i]).getPropertyValue("--roty"))/2),
-		skewY: (i) => adjustAngle + (slices.length-parseInt(getComputedStyle(slices[i]).getPropertyValue("--rot"))) * 7.5
-	});	
-	tl.to(slices[slices.length-1], 0, {
-		fillOpacity: 1
-	});
-	tl.to(".letter", 1, { delay: 1, x: "-=32" }, "moveleft");
-	tl.to("#bq", 1, { x: "-=83", opacity: 0 }, "-=1");
-	tl.to(slices, 0.7, {
-		autoAlpha: 1,
-		transformOrigin: "100% 100%",
-		fillOpacity: (i) => (getComputedStyle(slices[i]).getPropertyValue("--fo").length !== 0) ? (parseFloat(getComputedStyle(slices[i]).getPropertyValue("--fo"))) : 0.6442,
-		
-		scaleX: (i) => (1 + parseFloat(getComputedStyle(slices[i]).getPropertyValue("--roty"))/2),
-		skewY: (i) => startAngle + (slices.length-parseInt(getComputedStyle(slices[i]).getPropertyValue("--rot"))) * 7.5
-	}, "rainbow");
-	tl.to("#s1", 0, { opacity: 0}, "rainbow" );
-	tl.to("#s1", 0, { transformOrigin: "100% 50%", scaleX: -1, x: +0.5 }, "rainbow+=0.2" );
-	tl.staggerTo(slices, 0.2, {
-		fillOpacity: (i) => 0,
-		
-		stagger: -0.1
-	}, "rainbow-=0.5");
-	tl.to("#s1", 1.7, { fill: "#1c2224", stroke: "#1c2224", opacity: 1 }, "rainbow+=0.5" );
-</script>
+      tl.to("#s1", 0, { opacity: 1 });
+      tl.to(slices, 0, {
+        transformOrigin: "100% 100%",
+        fillOpacity: (i) =>
+          getComputedStyle(slices[i]).getPropertyValue("--fo").length !== 0
+            ? parseFloat(getComputedStyle(slices[i]).getPropertyValue("--fo"))
+            : 0.6442,
+        scaleX: (i) =>
+          1 +
+          parseFloat(
+            getComputedStyle(slices[slices.length - 1 - i]).getPropertyValue(
+              "--roty"
+            )
+          ) /
+            2,
+        skewY: (i) =>
+          adjustAngle +
+          (slices.length -
+            parseInt(getComputedStyle(slices[i]).getPropertyValue("--rot"))) *
+            7.5,
+      });
+      tl.to(slices[slices.length - 1], 0, {
+        fillOpacity: 1,
+      });
+      tl.to(".letter", 1, { delay: 1, x: "-=32" }, "moveleft");
+      tl.to("#bq", 1, { x: "-=83", opacity: 0 }, "-=1");
+      tl.to(
+        slices,
+        0.7,
+        {
+          autoAlpha: 1,
+          transformOrigin: "100% 100%",
+          fillOpacity: (i) =>
+            getComputedStyle(slices[i]).getPropertyValue("--fo").length !== 0
+              ? parseFloat(getComputedStyle(slices[i]).getPropertyValue("--fo"))
+              : 0.6442,
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+          scaleX: (i) =>
+            1 +
+            parseFloat(getComputedStyle(slices[i]).getPropertyValue("--roty")) /
+              2,
+          skewY: (i) =>
+            startAngle +
+            (slices.length -
+              parseInt(getComputedStyle(slices[i]).getPropertyValue("--rot"))) *
+              7.5,
+        },
+        "rainbow"
+      );
+      tl.to("#s1", 0, { opacity: 0 }, "rainbow");
+      tl.to(
+        "#s1",
+        0,
+        { transformOrigin: "100% 50%", scaleX: -1, x: +0.5 },
+        "rainbow+=0.2"
+      );
+      tl.staggerTo(
+        slices,
+        0.2,
+        {
+          fillOpacity: (i) => 0,
 
+          stagger: -0.1,
+        },
+        "rainbow-=0.5"
+      );
+      tl.to(
+        "#s1",
+        1.7,
+        { fill: "#1c2224", stroke: "#1c2224", opacity: 1 },
+        "rainbow+=0.5"
+      );
+    </script>
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+      integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+      crossorigin="anonymous"
+    ></script>
 
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <img
+              src="https://qatent.com"
+              alt=""
+              class="img-fluid w-100 rounded mb-4"
+            />
+            <h2 class="mb-4"></h2>
+            <div class="content">
+              <div class="">
+                <img
+                  src="/images/marketing.jpg"
+                  alt="Description textuelle automatique à partir d'une image et inversement transformation de revendications de brevets en pré-images"
+                  class="img-fluid w-100 rounded mb-4"
+                />
+                <h2 class="mb-4">
+                  Marketing and sales assistant
+                  <p>
+                    Marketing and sales support to the co-founder of
+                    qatent(INRIA technology incubated at Agoranov)
+                  </p>
+                </h2>
+                <div class="content">
+                  <h3 id="contexte-et-atouts-du-poste">Context</h3>
+                  <p>
+                    qatent, a legaltech that has raised its first round of
+                    financing, is looking for a sales assistant. The aim is to
+                    assist the co-founder on marketing and sales activities.
+                  </p>
+                  <p>
+                    Emerged from and supported by INRIA (the French National
+                    Computer Science Research Center), the company develops an
+                    AI platform to help drafting patent applications. You will
+                    work in a team of 8 people of 5 nationalities within the
+                    AGORANOV incubator in the 6th district of Paris (where
+                    success stories such as Doctolib, Dataiku, Ynsect, Criteo
+                    were created).
+                  </p>
+                  <p>
+                    After more than one year of IT development, we have
+                    collected the contact information of many prospects. In the
+                    first phase, you will learn about our business and our
+                    positioning, then you will co-construct your sales tools and
+                    apply them, until the closing of sales.
+                  </p>
+                  <h3 id="principales-activités">Responsibilities</h3>
+                  <p>
+                    Under the direct supervision of one of the two co-founders,
+                    you will first work on the marketing of the qatent offer,
+                    and, once the positioning has been assimilated and the
+                    website is ready, you will support the CEO and co-founder
+                    with the commercial activity.
+                  </p>
+                  <h5>
+                    <u>Marketing</u> (1st part of the internship, supported by
+                    an experienced consultant)
+                  </h5>
+                  <ul>
+                    <li>
+                      copywriting, you will deploy the marketing strategy on the
+                      website contents (help pages, FAQ, datasheets, ...)
+                    </li>
 
+                    <li>
+                      screencast realization, from scripts to online publishing
+                      and tracking
+                    </li>
+                  </ul>
+                  <h5><u>Sales</u> (2nd part of the internship)</h5>
+                  <p>
+                    You will be in charge of the existing prospects (UK, DE,
+                    USA):
+                  </p>
+                  <ul>
+                    <li>co-construction of the commercial framework;</li>
+                    <li>telemarketing;</li>
+                    <li>
+                      debriefing and continuous improvement of the sales pitch;
+                    </li>
+                    <li>
+                      demos of the service (client site or videoconference);
+                    </li>
+                    <li>customer follow-up until closing.</li>
+                  </ul>
+                  <p>
+                    The objective of the internship is therefore concrete and
+                    will have a real impact on the young company.
+                  </p>
 
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <img src="https://qatent.com" alt="" class="img-fluid w-100 rounded mb-4">
-        <h2 class="mb-4"></h2>
-        <div class="content">  <div class="">
-        <img src="/images/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="Description textuelle automatique à partir d'une image et inversement transformation de revendications de brevets en pré-images" class="img-fluid w-100 rounded mb-4">
-        <h2 class="mb-4">Description textuelle automatique à partir d'une image et inversement transformation de revendications de brevets en pré-images
-</h2>
-        <div class="content">
-<h3 id="contexte-et-atouts-du-poste">Contexte et atouts du poste</h3>
-<p>Alors que le Traitement Automatique des Langues progresse à pas de géants, une partie importante des informations techniques contenues dans les brevets d'invention est encodée de manière graphique. Ces informations restent très difficiles d'accès, mais peuvent être stratégiques.
-</p>
-<p>qatent est une startup issue d'INRIA qui se concentre sur l'utilisation des technologies dites "transformers" pour manipuler les données textuelles. Vous travaillerez dans une atmosphère de startup très inspirante et stimulante chez Agoranov, dans le 6ème arrondissement de Paris.
-</p>
-<h3 id="principales-activités">Responsabilités</h3>
-<p>En renfort de cette activité sur l'écrit, nous recherchons un profil qui a envie d'explorer la transformation de textes (de revendications de brevets) en graphique, et l'inverse à savoir l'écriture de textes décrivant un dessin graphique. Nous ciblons plus le challenge général qui est (trop) large:
-</p>
-<ul>
-<li>Extraction d’information d’une revendications de brevets, transformation dans un tableau de relations
-</li>
-<li>Transformation de ce tableau en diagramme éditable
-</li>
-<li>Extraction et analyse de figures du corpus de brevets
-</li>
-<li>Création d’un corpus de brevets incluant les figures analysées.
-</li>
-<li>Développement et évaluation d’un système de génération bi-directionnelle entre descriptions et figures.
-</li>
-</ul>
-<p>L'objectif du stage est donc atteignable et aura un véritable impact sur le monde des brevets..
-</p>
-<h3 id="lessentiel-pour-réussir">L&rsquo;Connaissances et Compétences requises 
-</h3>
-<ul>
-<li>Connaissances avancées en Python pour le traitement automatique de langue.
-</li>
-<li>Compétences en statistiques et en mathématiques
-</li>
-<li>Capacité à communiquer, à rendre compte et à travailler en équipe
-</li>
-<li> L'expérience du traitement de textes brevetés sera un plus.
-</li>
-<li> ++ Des connaissances de transformers (T5, GPT), des modèles génératifs (GAN) ou en génération d’image seraient un plus.</li>
-</ul>
-<p><strong>La durée du stage est négociable.
-<br/>
-Envoyez-nous votre CV : fv@qatent.com
-<br/>
-<a href="https://www.linkedin.com/in/fveltz/" target="_blank">https://www.linkedin.com/in/fveltz/ </a>
-</strong></p>
-</div>   
-<br/>
+                  <h3 id="lessentiel-pour-réussir">Your profile</h3>
+                  <ul>
+                    <li>Business/marketing background</li>
+                    <li>At ease in English</li>
+                    <li>
+                      With a first commercial experience (in internship,
+                      association or summer job)
+                    </li>
+                    <li>Proven writing skills</li>
+                    <li>
+                      Understanding of patents is a plus, at least interest
+                    </li>
+                  </ul>
+                  <p>
+                    <strong
+                      >The duration of the internship is negotiable (from 3 to 6
+                      months).
+                      <br />
+                      Minimum 800 euros per month, fixed-term or permanent
+                      contract possible afterwards. Partly remote work possible.
+
+                      <br />
+                      Send your CV and an example of the writing you have done
+                      to François Veltz: fv@qatent.com
+                      <br />
+                      <a
+                        href="https://www.linkedin.com/in/fveltz/"
+                        target="_blank"
+                        >https://www.linkedin.com/in/fveltz/
+                      </a>
+                    </strong>
+                  </p>
+                </div>
+                <br />
+              </div>
+            </div>
+            <div>
+              ******************************************************************
+            </div>
+            <div class="content">
+              <div class="">
+                <h2 class="mb-4">Marketing and sales assistant</h2>
+                <p>
+                  Appui marketing puis commercial du cofondateur de qatent.com
+                  (technologie INRIA incubée à Agoranov)
+                </p>
+                <div class="content">
+                  <h3 id="contexte-et-atouts-du-poste">
+                    Contexte et atouts du poste
+                  </h3>
+                  <p>
+                    qatent, legaltech ayant réalisé sa première levée de fonds,
+                    recherche son “sales assistant”. Il s'agit d'assister le CEO
+                    et cofondateur sur les activités marketing et commerciales.
+                  </p>
+                  <p>
+                    Issue d'INRIA (Laboratoire d’informatique réputé en France),
+                    la société développe une plateforme IA d’aide à la rédaction
+                    de demandes de brevets d’invention. Vous travaillerez dans
+                    une équipe de 8 personnes de 5 nationalités au sein de
+                    l'incubateur Agoranov dans le 6 ème arrondissement de Paris
+                    (à l'origine de succès comme Doctolib, Dataiku, Ynsect,
+                    Criteo).
+                  </p>
+                  <p>
+                    Après une dizaine de mois de développement informatique,
+                    nous avons recueilli les coordonnées de très nombreux
+                    prospects. Dans une première phase, vous vous appropriez
+                    notre métier et notre positionnement, vous co-construisez
+                    vos outils de vente et les mettrez en application, jusqu’à
+                    la conclusion des ventes.
+                  </p>
+                  <h3 id="principales-activités">Responsabilités</h3>
+                  <p>
+                    Sous la responsabilité directe d’un des cofondateurs, vous
+                    travaillerez dans un premier temps sur le marketing de
+                    l’offre Qatent, et, une fois le positionnement assimilé et
+                    le site Internet prêt, vous appuierez le CEO sur l’activité
+                    commerciale.
+                  </p>
+                  <h5>
+                    <u>Marketing</u> (1ère partie du stage, appuyé par un
+                    consultant expérimenté )
+                  </h5>
+                  <ul>
+                    <li>
+                      copywriting, vous déployez la stratégie marketing sur les
+                      contenus du site Internet (pages d'aide, FAQ, ...)
+                    </li>
+
+                    <li>
+                      réalisation de screencast, du scénario jusqu’à la mise en
+                      ligne
+                    </li>
+                  </ul>
+                  <h5><u>commercial vente </u> (2ème partie du stage)</h5>
+                  <p>
+                    Vous aurez en charge la base de prospects anglophones (UK,
+                    DE, USA) déjà qualifiée :
+                  </p>
+                  <ul>
+                    <li>co-construction du canevas commercial;</li>
+                    <li>télémarketing;</li>
+                    <li>
+                      debriefing et amélioration continue de l’argumentaire;
+                    </li>
+                    <li>réalisation de démos (chez le client ou en visio);</li>
+                    <li>suivi client jusqu'au closing.</li>
+                  </ul>
+                  <p>
+                    L'objectif du stage est donc concret et aura un véritable
+                    impact sur la jeune société.
+                  </p>
+
+                  <h3 id="lessentiel-pour-réussir">Votre profil</h3>
+                  <ul>
+                    <li>Formations commerce/marketing</li>
+                    <li>Très à l’aise en anglais</li>
+                    <li>
+                      Avec une première expérience commerciale (en stage,
+                      association ou job d’été)
+                    </li>
+                    <li>Qualités rédactionnelles avérées</li>
+                    <li>Compréhension des enjeux brevets est un plus</li>
+                  </ul>
+
+                  <p>
+                    <strong
+                      >La durée du stage est négociable (de 3 à 6 mois).
+
+                      <br />
+                      Gratification minimum 800 euros par mois, CDD ou CDI
+                      possible à la suite. Télétravail possible
+                      <br />
+                      Envoyez votre CV et un exemple d’écrit que vous avez
+                      réalisé à François Veltz: fv@qatent.com
+                      <br />
+                      <a
+                        href="https://www.linkedin.com/in/fveltz/"
+                        target="_blank"
+                        >https://www.linkedin.com/in/fveltz/
+                      </a>
+                    </strong>
+                  </p>
+                </div>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-</div>
-        
-        
-        
+    </section>
+
+    <footer class="bg-light section pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mb-5"></div>
+          <div class="col-md-3 col-sm-6 mb-5">
+            <div class="h3 mb-4">Service</div>
+            <ul class="list-unstyled footer-list">
+              <li><a href="https://qatent.com/price">Pricing</a></li>
+
+              <li><a href="https://qatent.com/service">Service</a></li>
+
+              <li><a href="https://qatent.com/terms">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-5">
+            <div class="h3 mb-4">Company</div>
+            <ul class="list-unstyled footer-list">
+              <li><a href="https://qatent.com/contact">Contact Us</a></li>
+
+              <li><a href="https://qatent.com/team">Team</a></li>
+
+              <li>
+                <a href="https://qatent.com/privacy-policy">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a class="d-block mb-3" href="https://qatent.com"
+              ><img
+                width="200px"
+                class="img-fluid"
+                src="https://qatent.com/images/qatent-logo-check.svg"
+                alt="qatent for your patents"
+            /></a>
+            <p class="mb-4">A.I. for patents.</p>
+
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/QatentPatent"
+                  ><i class="ti-twitter-alt"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/qatent/"
+                  ><i class="ti-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-top border-default text-center py-4 mt-4">
+          <small class="content"
+            >Design by
+            <a href="https://themefisher.com/">Themefisher</a> developed by
+            <a href="https://gethugothemes.com/">Gethugothemes</a>, Images by
+            <a href="https://undraw.co/">Undraw</a> and
+            <a href="https://unsplash.com/">Unsplash</a></small
+          >
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </footer>
 
+    <!-- JS Plugins -->
 
+    <script src="https://qatent.com/plugins/jQuery/jquery.min.js"></script>
 
+    <script src="https://qatent.com/plugins/bootstrap/bootstrap.min.js"></script>
 
+    <script src="https://qatent.com/plugins/slick/slick.min.js"></script>
 
-<footer class="bg-light section pb-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-6 mb-5">
-        
-      </div>
-      <div class="col-md-3 col-sm-6 mb-5">
-        
-        <div class="h3 mb-4">Service</div>
-        <ul class="list-unstyled footer-list">
-          
-          <li><a href="https://qatent.com/price">Pricing</a></li>
-          
-          <li><a href="https://qatent.com/service">Service</a></li>
-          
-          <li><a href="https://qatent.com/terms">Terms of Service</a></li>
+    <!-- Main Script -->
 
-        </ul>
-        
-      </div>
-      <div class="col-md-3 col-sm-6 mb-5">
-        
-        <div class="h3 mb-4">Company</div>
-        <ul class="list-unstyled footer-list">
-          
-          <li><a href="https://qatent.com/contact">Contact Us</a></li>
-          
-          <li><a href="https://qatent.com/team">Team</a></li>
-
-          <li><a href="https://qatent.com/privacy-policy">Privacy Policy</a></li>
-          
-        </ul>
-        
-      </div>
-      <div class="col-md-3 col-sm-6 mb-5">
-        <a class="d-block mb-3" href="https://qatent.com"><img width="200px"  class="img-fluid" src="https://qatent.com/images/qatent-logo-check.svg" alt="qatent for your patents"></a>
-        <p class="mb-4">A.I. for patents.</p>
-        
-        
-        <ul class="list-inline social-icons">
-          
-          <li class="list-inline-item"><a href="https://twitter.com/QatentPatent"><i class="ti-twitter-alt"></i></a></li>
-          
-          <li class="list-inline-item"><a href="https://www.linkedin.com/in/qatent/"><i class="ti-linkedin"></i></a></li>
-          
-        </ul>
-        
-      </div>
-    </div>
-    <div class="border-top border-default text-center py-4 mt-4">
-      <small class="content">Design by <a href="https://themefisher.com/">Themefisher</a> developed by <a href="https://gethugothemes.com/">Gethugothemes</a>, Images by <a href="https://undraw.co/">Undraw</a> and <a href="https://unsplash.com/">Unsplash</a></small>
-    </div>
-  </div>
-
-</footer>
-
-
-<!-- JS Plugins -->
-
-<script src="https://qatent.com/plugins/jQuery/jquery.min.js"></script>
-
-<script src="https://qatent.com/plugins/bootstrap/bootstrap.min.js"></script>
-
-<script src="https://qatent.com/plugins/slick/slick.min.js"></script>
-
-
-
-
-
-<!-- Main Script -->
-
-<script src="https://qatent.com/js/script.min.js"></script>
-
-
-</body>
-
+    <script src="https://qatent.com/js/script.min.js"></script>
+  </body>
 </html>
