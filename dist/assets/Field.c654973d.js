@@ -1,0 +1,1 @@
+import{b as t,g as a,o as _,e as c,k as l,n as p,u as r,A as d}from"./index.d17d1dd6.js";const u=t({__name:"Field",props:{grouped:{type:Boolean,default:!1}},setup(e){const s=e,o=a(()=>[s.grouped&&"is-grouped"]);return(n,i)=>(_(),c("div",{class:p(["field",r(o)])},[l(n.$slots,"default",{},void 0,!0)],2))}});const m=d(u,[["__scopeId","data-v-5e1c7c40"]]);export{m as _};
