@@ -1,0 +1,1 @@
+const a=[{id:0,prefix:"",suffix:"TB",value:40,text:"Of annual data processed"},{id:1,prefix:"$",suffix:"B",value:7,text:"Amazon & Walmart.com sales optimized annually"},{id:2,prefix:"",suffix:"M",value:750,text:"Monthly bid changes executed"},{id:3,prefix:"$",suffix:"M",value:450,text:"Managed ad spend annually on automated campaigns"}];export{a as s};

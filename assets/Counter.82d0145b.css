@@ -1,0 +1,1 @@
+@property --num{syntax: "<integer>"; initial-value: 0; inherits: false;}.counter-active[data-v-f709bb8d]{--end: 100;animation:counter-f709bb8d 5s ease-in-out;animation-fill-mode:forwards;counter-set:num var(--num)}.counter[data-v-f709bb8d]:after{content:counter(num)}@keyframes counter-f709bb8d{0%{--num: 0}to{--num: var(--end)}}
