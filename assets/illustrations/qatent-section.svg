@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="bebdbc02-5f56-4bd5-9ad9-bce5f07a2c3e"
    data-name="Layer 1"
    width="1400"
    height="783.89355"
    viewBox="0 0 1400 783.89357"
    version="1.1"
-   sodipodi:docname="qatent-illustrated.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   sodipodi:docname="qatent-section.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata173">
     <rdf:RDF>
@@ -38,26 +38,28 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2416"
-     inkscape:window-height="1409"
+     inkscape:window-width="1396"
+     inkscape:window-height="983"
      id="namedview169"
      showgrid="false"
-     inkscape:zoom="0.5169637"
-     inkscape:cx="667.84924"
-     inkscape:cy="278.57813"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:zoom="1.0339274"
+     inkscape:cx="642.21144"
+     inkscape:cy="253.8863"
+     inkscape:window-x="3441"
+     inkscape:window-y="96"
+     inkscape:window-maximized="0"
      inkscape:current-layer="bebdbc02-5f56-4bd5-9ad9-bce5f07a2c3e"
      fit-margin-left="100"
-     fit-margin-right="100" />
+     fit-margin-right="100"
+     inkscape:pagecheckerboard="0" />
   <title
      id="title2">lists</title>
   <path
      inkscape:connector-curvature="0"
-     style="fill:#3f3d56;stroke-width:1.74255013"
-     d="m 468.92986,316.0931 h 345.58389 a 18.757826,9.1786335 0 0 0 18.73646,-9.16817 V 93.000587 A 18.757826,9.1786335 0 0 0 814.51375,83.832403 H 468.92986 a 18.757826,9.1786335 0 0 0 -18.73647,9.168249 V 306.92499 a 18.757826,9.1786335 0 0 0 18.73647,9.16811 z M 814.51375,85.869837 a 14.589154,7.1388069 0 0 1 14.57279,7.130815 V 306.92499 a 14.58918,7.1388191 0 0 1 -14.57279,7.1308 H 468.92986 a 14.589205,7.1388314 0 0 1 -14.57283,-7.1308 V 93.000652 a 14.58918,7.1388191 0 0 1 14.57283,-7.130815 z"
-     id="path60" />
+     style="fill:#ffffff;stroke-width:1.74255;fill-opacity:1"
+     d="m 468.92986,316.0931 h 345.58389 c 10.34297,-0.006 18.72468,-4.10712 18.73646,-9.16817 V 93.000587 c -0.0118,-5.061059 -8.39348,-9.162423 -18.73646,-9.168184 H 468.92986 c -10.34304,0.0058 -18.72477,4.107163 -18.73647,9.168249 V 306.92499 c 0.0118,5.06103 8.39354,9.16235 18.73647,9.16811 z"
+     id="path60"
+     sodipodi:nodetypes="ccccccccc" />
   <g
      id="g90"
      transform="translate(63.834269,17.409346)">

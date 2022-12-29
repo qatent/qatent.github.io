@@ -1,1 +1,0 @@
-import{d as a,a as d,_ as n}from"./index.d17d1dd6.js";const t=a(({app:e})=>{e.component("Slider",d({loader:()=>n(()=>import("./slider.3d377d01.js"),["assets/slider.3d377d01.js","assets/index.d17d1dd6.js","assets/index.ad80e3dd.css"]).then(o=>o.default),delay:0,suspensible:!1}))});export{t as default};
