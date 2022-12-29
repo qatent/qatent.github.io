@@ -1,0 +1,1 @@
+import{_ as e}from"./DemoLayoutComponent.7e240228.js";import{A as c,o as _,h as r,bI as o}from"./index.4498c4e2.js";import"./PlaceloadText.7b9bcaa4.js";const n={};function m(s,a){const t=e;return _(),r(t)}typeof o=="function"&&o(n);const u=c(n,[["render",m]]);export{u as default};
